@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>OTP Generator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>OTP Generator</h1>
+        </div>
+
+       <form class="form-input" id="form-input"  action="" method="get">
+             <input class="email-input" id="email-input" type="email" name="email" id="email" placeholder="Enter your email">
+            <button type="button" id="verifyBtn" class="btn btn-light">Verify</button>
+            <button type="button" id="copyBtn" class="btn btn-light">Copy OTP</button>
+       </form>
+
+       <div class="otp-input" id="otp-input">
+          Your 6-digit code:
+          <span class="otp" id="otp">__</span>
+          <span class="otp" id="otp">__</span>
+          <span class="otp" id="otp">__</span>
+          <span class="otp" id="otp">__</span>
+          <span class="otp" id="otp">__</span>
+          <span class="otp" id="otp">__</span>
+       </div>
+    </div>
+   
+   <script src="script.js"></script> 
+</body>
+</html>

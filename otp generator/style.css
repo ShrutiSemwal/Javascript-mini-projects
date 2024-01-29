@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #353935;
+    color: beige;
+    font-family: 'Montserrat', sans-serif;
+    padding: 80px;
+    margin: 0;
+}
+
+.email-input{
+    font-size: larger;
+}
+
+.otp-input {
+  padding-top: 20px;
+  font-size: larger; 
+}
+
+.otp {
+   font-size: 50px; 
+}
